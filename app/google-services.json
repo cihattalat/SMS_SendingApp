@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "47055165099",
+    "project_id": "sms-sending-app-ca991",
+    "storage_bucket": "sms-sending-app-ca991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47055165099:android:6c193a8161b9b071b389ee",
+        "android_client_info": {
+          "package_name": "com.example.sms_sending_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47055165099-8tcsk9k8tjkttms17b5lt05cm865a4fm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMpanw3gpvGAhMYcbibT6MKfHUj_KMKws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47055165099-8tcsk9k8tjkttms17b5lt05cm865a4fm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

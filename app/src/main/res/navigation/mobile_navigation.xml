@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_create_group">
+    <fragment
+        android:id="@+id/nav_create_group"
+        android:name="com.example.sms_sending_app.ui.nav_create_group"
+        android:label="fragment_nav_create_group"
+        tools:layout="@layout/fragment_nav_create_group" />
+    <fragment
+        android:id="@+id/nav_add_member"
+        android:name="com.example.sms_sending_app.ui.nav_add_member"
+        android:label="fragment_nav_add_member"
+        tools:layout="@layout/fragment_nav_add_member" />
+    <fragment
+        android:id="@+id/nav_create_message"
+        android:name="com.example.sms_sending_app.ui.nav_create_message"
+        android:label="fragment_nav_create_message"
+        tools:layout="@layout/fragment_nav_create_message" />
+    <fragment
+        android:id="@+id/nav_send_message"
+        android:name="com.example.sms_sending_app.ui.nav_send_message"
+        android:label="fragment_nav_send_message"
+        tools:layout="@layout/fragment_nav_send_message" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.sms_sending_app.ui.nav_logout"
+        android:label="fragment_nav_logout"
+        tools:layout="@layout/fragment_nav_logout" />
+</navigation>
